@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>E-daraz</title>
+        <!--google fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+         <!---font-awesome cdn ---->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <!--google fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+        <!--bootstrap icon-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+         <!---bootstarp-5 cdn ---->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <!--own stylesheet-->
+        <link rel="stylesheet" href="./assect/css/stlysheet.css">
+        <style>
+
+           
+        </style>
+    </head>
+<body>
+  <!--navbar1 section-->
+    <section class="navbar1 sticky-lg-top bg-white d-none d-sm-none d-md-none d-lg-block">
+        <div class="container py-2">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white ">
+                <div class="container-fluid ">
+                  <a class="navbar-brand" href="#">
+                    <img src="assect/images/logo.png" class="img-fluid" style="width:120px;height:auto;" png="png">
+                  </a>
+                  <a class="navbar-brand ms-5" href="#">
+                    <img src="assect/images/flash-sale.png" class="img-fluid" style="width:60px;height:auto;" png="png">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <form class="d-flex" style="border: 1px solid rgba(230, 221, 221, 0.573);border-radius: 10px;">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 bg-light">
+                        <li class="nav-item dropdown w-50">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Dropdown
+                            </a>
+                            <ul class="dropdown-menu overflow-scroll " aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                            </ul>
+                          </li>
+                          </ul>
+                        <input class="form-control me-2 border-0" type="search" placeholder="I am looking for ....." aria-label="Search">
+                        <button class="btn m-auto" style="background: rgba(223, 30, 30, 0.886);color: white;font-size: larger;"><i class="bi bi-search"></i></button>
+                      </form>
+                     <div class="d-flex m-auto navicon1">
+                        <a class="ms-5 " href="">
+                          <i class="bi bi-arrow-repeat " style="position: relative;color: rgb(79, 75, 75);font-size: 25px;"></i>   
+                        </a>
+                        <a class="ms-5" href="">
+                            <i class="bi bi-heart" style="position: relative;color: rgb(79, 75, 75);font-size: 25px;">
+                            <span style="font-size: 10px; margin: -4px 0px 0px 12px;" class="position-absolute top-0 start-100 translate-middle badge rounded-circle bg-danger">23</span>
+                            </i>
+                        </a>
+                        <a class="ms-5" href="">
+                            <i class="bi bi-cart" style="position: relative;color: rgb(79, 75, 75);font-size: 25px;">
+                            <span style="font-size: 10px; margin: -4px 0px 0px 12px;" class="position-absolute top-0 start-100 translate-middle badge rounded-circle bg-danger">23</span>
+                            </i>
+                        </a>
+                        <a class="ps-5 fw-light text-black" href="#">Shoping card<br><span class="color-brn fw-normal">0.00$</span> </a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </section>
+    <!--navbar2 section-->
+    <section class="navbar2 bg-brn py-3">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active text-white fw-400" aria-current="page" href="#">Home</a>
+                </li>
+                <!--mega menu-->
+                <li class="dropdown dropdown2">
+                  <a class="nav-link dropdown-toggle text-white fw-400" data-bs-toggle="dropdown" data-bs-auto-close="outside"  href="#">Collection</a>
+                  <ul class="dropdown-menu dropdown-menu2 shadow border-0" style="width:800px;">
+                      <div class="container">
+                          <div class="row">
+                              <div class="col-lg-3 col-md-12 col-sm-12 col-12">
+                                      <h6 class="fw-400">Playlist</h6>
+                                      <hr>
+                                      <li><a class="dropdown-item fw-300 color-grey" href="#">Action</a></li>
+                                      <li><a class="dropdown-item fw-300 color-grey" href="#">Another action</a></li>
+                                      <li><a class="dropdown-item fw-300 color-grey" href="#">More</a></li>
+                                      <li><a class="dropdown-item fw-300 color-grey" href="#">Action</a></li>
+                                      <li><a class="dropdown-item fw-300 color-grey" href="#">Another action</a></li>
+                                      <li><a class="dropdown-item fw-300 color-grey" href="#">More</a></li>
+                              </div> 
+                              <div class="col-lg-3 col-md-12 col-sm-12 col-12">
+                                  <h6 class="fw-400 ps-3">Modern</h6>
+                                  <hr>
+                                  <li><a class="dropdown-item fw-300 color-grey" href="#">Action</a></li>
+                                  <li><a class="dropdown-item fw-300 color-grey" href="#">Another action</a></li>
+                                  <li><a class="dropdown-item fw-300 color-grey" href="#">More</a></li>
+                                  <li><a class="dropdown-item fw-300 color-grey" href="#">Action</a></li>
+                                  <li><a class="dropdown-item fw-300 color-grey" href="#">Another action</a></li>
+                                  <li><a class="dropdown-item fw-300 color-grey" href="#">More</a></li>
+                              </div>
+                              <div class="col-lg-3 col-md-12 col-sm-12 col-12">
+                                <h6 class="fw-400 ps-3">Modern</h6>
+                                <hr>
+                                <li><a class="dropdown-item fw-300 color-grey" href="#">Action</a></li>
+                                <li><a class="dropdown-item fw-300 color-grey" href="#">Another action</a></li>
+                                <li><a class="dropdown-item fw-300 color-grey" href="#">More</a></li>
+                                <li><a class="dropdown-item fw-300 color-grey" href="#">Action</a></li>
+                                <li><a class="dropdown-item fw-300 color-grey" href="#">Another action</a></li>
+                                <li><a class="dropdown-item fw-300 color-grey" href="#">More</a></li>
+                            </div>
+                              <div class="col-lg-3 col-md-12 col-sm-12 col-12">
+                                  <h6 class="fw-400 ps-3">Shop</h6>
+                                  <hr>
+                                  <a class="navbar-brand" href="#">
+                                      <img src="assect/images/shop.jpg" alt="shop.jpg" class="img-fluid" style="width: 200px;height:auto;">
+                                  </a>
+                              </div>
+                          </div>
+                      </div>
+                  </ul>
+                </li>
+                <li class="dropdown dropdown2">
+                  <a class="nav-link dropdown-toggle text-white fw-400" data-bs-toggle="dropdown" data-bs-auto-close="outside"  href="#">Elemantes</a>
+                  <ul class="dropdown-menu dropdown-menu2 shadow border-0" style="width: 900px;height: auto;">
+                      <div class="container">
+                          <div class="row">
+                              <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                                      <h6 class="fw-400">Playlist</h6>
+                                      <hr>
+                                      <li><a class="dropdown-item fw-300 color-grey" href="#">Action</a></li>
+                                      <li><a class="dropdown-item fw-300 color-grey" href="#">Another action</a></li>
+                                      <li><a class="dropdown-item fw-300 color-grey" href="#">More</a></li>
+                                      <li><a class="dropdown-item fw-300 color-grey" href="#">Action</a></li>
+                                      <li><a class="dropdown-item fw-300 color-grey" href="#">Another action</a></li>
+                                      <li><a class="dropdown-item fw-300 color-grey" href="#">More</a></li>
+                              </div> 
+                              <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                                  <h6 class="fw-400 ps-3">Modern</h6>
+                                  <hr>
+                                  <li><a class="dropdown-item fw-300 color-grey" href="#">Action</a></li>
+                                  <li><a class="dropdown-item fw-300 color-grey" href="#">Another action</a></li>
+                                  <li><a class="dropdown-item fw-300 color-grey" href="#">More</a></li>
+                                  <li><a class="dropdown-item fw-300 color-grey" href="#">Action</a></li>
+                                  <li><a class="dropdown-item fw-300 color-grey" href="#">Another action</a></li>
+                                  <li><a class="dropdown-item fw-300 color-grey" href="#">More</a></li>
+                              </div>
+                              <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                                <h6 class="fw-400 ps-3">Modern</h6>
+                                <hr>
+                                <li><a class="dropdown-item fw-300 color-grey" href="#">Action</a></li>
+                                <li><a class="dropdown-item fw-300 color-grey" href="#">Another action</a></li>
+                                <li><a class="dropdown-item fw-300 color-grey" href="#">More</a></li>
+                                <li><a class="dropdown-item fw-300 color-grey" href="#">Action</a></li>
+                                <li><a class="dropdown-item fw-300 color-grey" href="#">Another action</a></li>
+                                <li><a class="dropdown-item fw-300 color-grey" href="#">More</a></li>
+                            </div>
+                          </div>
+                      </div>
+                  </ul>
+                </li>
+                <li class="dropdown dropdown2">
+                  <a class="nav-link dropdown-toggle text-white fw-400" data-bs-toggle="dropdown" data-bs-auto-close="outside"  href="#">Shop</a>
+                  <ul class="dropdown-menu dropdown-menu2 shadow border-0" style="width: 200px;height: auto;">
+                      <div class="container">
+                          <div class="row">
+                              <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                  <h6 class="fw-400">Playlist</h6>
+                                  <hr>
+                                  <li><a class="dropdown-item fw-300 color-grey" href="#">Action</a></li>
+                                  <li><a class="dropdown-item fw-300 color-grey" href="#">Another action</a></li>
+                                  <li><a class="dropdown-item fw-300 color-grey" href="#">More</a></li>
+                                  <li><a class="dropdown-item fw-300 color-grey" href="#">Action</a></li>
+                                  <li><a class="dropdown-item fw-300 color-grey" href="#">Another action</a></li>
+                                  <li><a class="dropdown-item fw-300 color-grey" href="#">More</a></li>
+                              </div> 
+                          </div>
+                      </div>
+                  </ul>
+                </li>
+                <!--product-->
+                <li class="dropdown dropdown2 product">
+                  <a class="nav-link dropdown-toggle text-white fw-400" data-bs-toggle="dropdown" data-bs-auto-close="outside"  href="#">Product</a>
+                  <ul class="dropdown-menu dropdown-menu2 shadow border-0" style="width: 800px;height: auto;">
+                      <div class="container">
+                          <div class="row">
+                              <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                                  <h6 class="fw-400">Playlist</h6>
+                                  <hr>
+                                  <li><a class="dropdown-item fw-300 color-grey" href="#">Action</a></li>
+                                  <li><a class="dropdown-item fw-300 color-grey" href="#">Another action</a></li>
+                                  <li><a class="dropdown-item fw-300 color-grey" href="#">More</a></li>
+                                  <li><a class="dropdown-item fw-300 color-grey" href="#">Action</a></li>
+                                  <li><a class="dropdown-item fw-300 color-grey" href="#">Another action</a></li>
+                                  <li><a class="dropdown-item fw-300 color-grey" href="#">More</a></li>
+                              </div>
+                              <div class="col-lg-6 col-md-12 col-sm-12 col-12 d-none d-sm-none d-md-block d-lg-block">
+                                <h6 class="fw-400">Voucher</h6>
+                                <hr>
+                                <a class="fw-300 color-grey" href="#">
+                                  <div class="card mb-3" style="max-width: 540px;">
+                                    <div class="row g-0">
+                                      <div class="col-md-4">
+                                        <img src="assect/images/shop.jpg" class="img-fluid rounded-start" alt="..." style="width: 540px;height: auto; ">
+                                      </div>
+                                      <div class="col-md-8">
+                                        <div class="card-body text-center pt-4">
+                                          <h6 class="card-title">Shop Voucher</h6>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </a>
+                                <a class="fw-300 color-grey" href="#">
+                                  <div class="card mb-3" style="max-width: 540px;">
+                                    <div class="row g-0">
+                                      <div class="col-md-4">
+                                        <img src="assect/images/shop.jpg" class="img-fluid rounded-start" alt="..." style="width: 540px;height: auto;">
+                                      </div>
+                                      <div class="col-md-8">
+                                        <div class="card-body text-center pt-4">
+                                          <h6 class="card-title">Shop Voucher</h6>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </a>
+                              </div>  
+                          </div>
+                      </div>
+                  </ul>
+                </li>
+                <li class="dropdown dropdown2">
+                  <a class="nav-link dropdown-toggle text-white fw-400" data-bs-toggle="dropdown" data-bs-auto-close="outside"  href="#">Blog</a>
+                  <ul class="dropdown-menu dropdown-menu2 shadow border-0" style="width: 500px;height: auto;">
+                      <div class="container">
+                          <div class="row">
+                              <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                                  <h6 class="fw-400">Playlist</h6>
+                                  <hr>
+                                  <li><a class="dropdown-item fw-300 color-grey" href="#">Action</a></li>
+                                  <li><a class="dropdown-item fw-300 color-grey" href="#">Another action</a></li>
+                                  <li><a class="dropdown-item fw-300 color-grey" href="#">More</a></li>
+                                  <li><a class="dropdown-item fw-300 color-grey" href="#">Action</a></li>
+                                  <li><a class="dropdown-item fw-300 color-grey" href="#">Another action</a></li>
+                                  <li><a class="dropdown-item fw-300 color-grey" href="#">More</a></li>
+                              </div>
+                              <div class="col-lg-6 col-md-12 col-sm-12 col-12 d-none d-sm-none d-md-block d-lg-block">
+                                <h6 class="fw-400">Gift Card</h6>
+                              <hr>
+                                <li>
+                                  <a class="dropdown-item" href="#">
+                                    <div class="card bg-dark text-white">
+                                      <img src="assect/images/giftcard.jpg" class="card-img" alt="jpg">
+                                    </div>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a class="dropdown-item" href="#">
+                                    <div class="card bg-dark text-white">
+                                      <img src="assect/images/giftcard.jpg" class="card-img" alt="jpg">
+                                    </div>
+                                  </a>
+                                </li>
+                              </div>
+                          </div>
+                      </div>
+                  </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link text-white fw-400" href="#">My area</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <!--carousel section-->
+    <section class="slider1">
+      <div class="">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active bg-danger" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="bg-danger" aria-label="Slide 2"></button>
+          </div>
+          <div class="carousel-inner ">
+            <div class="carousel-item active slide1-bg">
+              <div class="row">
+                <div class="col-lg-12 col-md-12 ">
+                  <div class="text-center" style="padding-top: 130px;">
+                    <h2 class="fw-400 text-white fw-500 text-capitalize"><span class="text-danger">Indian</span> home decor<br>
+                    by com <span class="fst-italic">thomas</span></h2>
+                    <small class="text-white fw-300 py-1 text-capitalize">living room sofa sets furniture</small>
+                    <div class="py-4">
+                      <a class="btn btn1 text-white bg-danger p-2 fw-400" href="#"> shop now <i class="bi bi-arrow-right ps-2"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item slide2-bg">
+              <div class="row">
+                <div class="col-lg-12 col-md-12 ">
+                  <div class="text-center text-capitalize" style="padding-top: 130px;">
+                    <h2 class="fw-400 text-white fw-500 text-capitalize"> a <samp class="text-danger">decor</samp>  designs<br>
+                    collection in <span class="fst-italic">2021</span></h2>
+                    <small class="text-white fw-300 py-1 text-capitalize">interior designing:when minimalism collides</small>
+                    <div class="py-4">
+                      <a class="btn btn1 text-white bg-danger p-2 fw-400" href="#"> discover <i class="bi bi-arrow-right ps-2"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-danger" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-danger" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!--six col section-->
+    <section class="sixcol py-3 d-none d-sm-none d-md-block d-lg-block">
+      <div class="container-fluid">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row " style="margin: 0 100px 0 100px;">
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+                  <div class="card m-auto mb-md-3 card6" style="width: 8rem;">
+                    <a class="color-brn text-center py-2" style="font-size: 50px;" href=""><i class="bi bi-tablet"></i></a>
+                    <div class="card-body text-center">
+                      <p class="card-text fw-400 color-grey">Tablet.</p>
+                      <small class="fw-300 color-grey" >2 iteams</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+                  <div class="card m-auto mb-md-3 card6" style="width: 8rem;">
+                    <a class="color-brn text-center py-2" style="font-size: 50px;" href=""><i class="bi bi-tablet"></i></a>
+                    <div class="card-body text-center">
+                      <p class="card-text fw-400 color-grey">Tablet.</p>
+                      <small class="fw-300 color-grey" >2 iteams</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+                  <div class="card m-auto mb-md-3 card6" style="width: 8rem;">
+                    <a class="color-brn text-center py-2" style="font-size: 50px;" href=""><i class="bi bi-tablet"></i></a>
+                    <div class="card-body text-center">
+                      <p class="card-text fw-400 color-grey">Tablet.</p>
+                      <small class="fw-300 color-grey" >2 iteams</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+                  <div class="card  m-auto mb-md-3 card6" style="width: 8rem;">
+                    <a class="color-brn text-center py-2" style="font-size: 50px;" href=""><i class="bi bi-tablet"></i></a>
+                    <div class="card-body text-center">
+                      <p class="card-text fw-400 color-grey">Tablet.</p>
+                      <small class="fw-300 color-grey" >2 iteams</small>
+                    </div>
+                  </div>
+                </div>
+               <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+                  <div class="card m-auto mb-md-3 card6" style="width: 8rem;">
+                    <a class="color-brn text-center py-2" style="font-size: 50px;" href=""><i class="bi bi-tablet"></i></a>
+                    <div class="card-body text-center">
+                      <p class="card-text fw-400 color-grey">Tablet.</p>
+                      <small class="fw-300 color-grey" >2 iteams</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+                  <div class="card m-auto mb-md-3 card6" style="width: 8rem;">
+                    <a class="color-brn text-center py-2" style="font-size: 50px;" href=""><i class="bi bi-tablet"></i></a>
+                    <div class="card-body text-center">
+                      <p class="card-text fw-400 color-grey">Tablet.</p>
+                      <small class="fw-300 color-grey" >2 iteams</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row " style="margin: 0 100px 0 100px;">
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+                  <div class="card m-auto mb-md-4 card6" style="width: 8rem;">
+                    <a class="color-brn text-center py-2" style="font-size: 50px;" href=""><i class="bi bi-laptop"></i></a>
+                    <div class="card-body text-center">
+                      <p class="card-text fw-400 color-grey">Mack Pro</p>
+                      <small class="fw-300 color-grey" >5 iteams</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+                  <div class="card m-auto mb-md-4 card6" style="width: 8rem;">
+                    <a class="color-brn text-center py-2" style="font-size: 50px;" href=""><i class="bi bi-laptop"></i></a>
+                    <div class="card-body text-center">
+                      <p class="card-text fw-400 color-grey">Mack Pro</p>
+                      <small class="fw-300 color-grey" >5 iteams</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+                  <div class="card m-auto mb-md-3 card6" style="width: 8rem;">
+                    <a class="color-brn text-center py-2" style="font-size: 50px;" href=""><i class="bi bi-laptop"></i></a>
+                    <div class="card-body text-center">
+                      <p class="card-text fw-400 color-grey">Mack Pro</p>
+                      <small class="fw-300 color-grey" >5 iteams</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+                  <div class="card m-auto mb-md-3 card6" style="width: 8rem;">
+                    <a class="color-brn text-center py-2" style="font-size: 50px;" href=""><i class="bi bi-laptop"></i></a>
+                    <div class="card-body text-center">
+                      <p class="card-text fw-400 color-grey">Mack Pro</p>
+                      <small class="fw-300 color-grey" >5 iteams</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+                  <div class="card m-auto mb-md-3 card6" style="width: 8rem;">
+                    <a class="color-brn text-center py-2" style="font-size: 50px;" href=""><i class="bi bi-laptop"></i></a>
+                    <div class="card-body text-center">
+                      <p class="card-text fw-400 color-grey">Mack Pro</p>
+                      <small class="fw-300 color-grey" >5 iteams</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+                  <div class="card m-auto mb-md-3 card6" style="width: 8rem;">
+                    <a class="color-brn text-center py-2" style="font-size: 50px;" href=""><i class="bi bi-laptop"></i></a>
+                    <div class="card-body text-center">
+                      <p class="card-text fw-400 color-grey">Mack Pro</p>
+                      <small class="fw-300 color-grey" >5 iteams</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-danger " aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-danger " aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!--all categoris section-->
+    <section class="container py-3">
+      <div class="text-center py-3">
+        <a class="fw-400 color-grey shop-all" href="#">shop all categoris <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+      </div>
+    </section>
+    <!--Recommendations section-->
+    <section class="Recommendations py-3">
+      <div class="container py-2">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+            <div class="py-3">
+              <h4 class="fw-400 text-black">Recommendations</h4>
+            </div>
+          </div>
+            <div class="col-lg-8 col-md-8 col-sm-8 col-8">
+                <nav class="navbar navbar-expand-md navbar-light float-end">
+                    <div class="collapse navbar-collapse">
+                      <div class="navbar-nav text-capitalize">
+                        <a class="nav-link fw-400 color-grey shop-all active" aria-current="page" href="#">best seller</a>
+                        <a class="nav-link fw-300 color-grey shop-all" href="#">on sale</a>
+                        <a class="nav-link fw-300 color-grey shop-all" href="#">new arrivals</a>
+                        <a class="nav-link fw-300 color-grey shop-all" href="#">top rated</a>
+                      </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!--four-card section-->
+    <div class="four-card pb-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+            <div class="card m-auto mb-md-3 mb-sm-3 mb-3 card4" >
+              <img src="assect/images/product-55-280x280.jpg" class="card-img-top" alt="jpg">
+                  <div class="card-body text-center py-1">
+                      <a class="fw-400 color-grey" href="#"><p class="card-text text-capitalize shop-all">arm chair</p></a>
+                  </div>
+                  <hr class="mx-5">
+                  <div class="row text-center py-3 fs-4 cardrow">
+                      <div class="col-3">
+                          <a class="text-black" href="#"><i class="bi bi-basket"></i></a>
+                      </div>
+                      <div class="col-3">
+                        <a class="text-black" href="#"><i class="bi bi-heart"></i></a>
+                      </div>
+                      <div class="col-3">
+                        <a class="text-black" href="#"><i class="bi bi-eye"></i></a>
+                      </div>
+                      <div class="col-3">
+                        <a class="text-black" href="#"><i class="bi bi-arrow-repeat"></i></a>
+                      </div>
+                  </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+            <div class="card m-auto mb-md-3 mb-sm-3 mb-3 card4" >
+              <img src="assect/images/product-55-280x280.jpg" class="card-img-top" alt="jpg">
+                  <div class="card-body text-center py-1">
+                      <a class="fw-400 color-grey" href="#"><p class="card-text text-capitalize shop-all">arm chair</p></a>
+                  </div>
+                  <hr class="mx-5">
+                  <div class="row text-center py-3 fs-4 cardrow">
+                      <div class="col-3">
+                          <a class="text-black" href="#"><i class="bi bi-basket"></i></a>
+                      </div>
+                      <div class="col-3">
+                        <a class="text-black" href="#"><i class="bi bi-heart"></i></a>
+                      </div>
+                      <div class="col-3">
+                        <a class="text-black" href="#"><i class="bi bi-eye"></i></a>
+                      </div>
+                      <div class="col-3">
+                        <a class="text-black" href="#"><i class="bi bi-arrow-repeat"></i></a>
+                      </div>
+                  </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+            <div class="card m-auto mb-md-3 mb-sm-3 mb-3 card4">
+              <img src="assect/images/product-55-280x280.jpg" class="card-img-top" alt="jpg">
+                  <div class="card-body text-center py-1">
+                      <a class="fw-400 color-grey" href="#"><p class="card-text text-capitalize shop-all">arm chair</p></a>
+                  </div>
+                  <hr class="mx-5">
+                  <div class="row text-center py-3 fs-4 cardrow">
+                      <div class="col-3">
+                          <a class="text-black" href="#"><i class="bi bi-basket"></i></a>
+                      </div>
+                      <div class="col-3">
+                        <a class="text-black" href="#"><i class="bi bi-heart"></i></a>
+                      </div>
+                      <div class="col-3">
+                        <a class="text-black" href="#"><i class="bi bi-eye"></i></a>
+                      </div>
+                      <div class="col-3">
+                        <a class="text-black" href="#"><i class="bi bi-arrow-repeat"></i></a>
+                      </div>
+                  </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-12 col-sm-6 col-6">
+            <div class="card m-automb-md-3 mb-sm-3 mb-3 card4">
+              <img src="assect/images/product-55-280x280.jpg" class="card-img-top" alt="jpg">
+                  <div class="card-body text-center py-1">
+                      <a class="fw-400 color-grey" href="#"><p class="card-text text-capitalize shop-all">arm chair</p></a>
+                  </div>
+                  <hr class="mx-5">
+                  <div class="row text-center py-3 fs-4 cardrow">
+                      <div class="col-3">
+                          <a class="text-black" href="#"><i class="bi bi-basket"></i></a>
+                      </div>
+                      <div class="col-3">
+                        <a class="text-black" href="#"><i class="bi bi-heart"></i></a>
+                      </div>
+                      <div class="col-3">
+                        <a class="text-black" href="#"><i class="bi bi-eye"></i></a>
+                      </div>
+                      <div class="col-3">
+                        <a class="text-black" href="#"><i class="bi bi-arrow-repeat"></i></a>
+                      </div>
+                  </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!--featured product section-->
+    <section class="featured py-1 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+            <nav class="navbar navbar-expand w-100 navbar-light bg-light">
+                <div class="row">
+                  <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                    <a class="navbar-brand m-auto m-sm-auto m-md-auto m-lg-auto text-center fw-400 text-black pt-lg-1" href="#"><p class="pt-1">Featured Products</p></a>
+                  </div>
+                  <div class="col-lg-8 col-md-12 col-sm-12 col-12">
+                    <div class="collapse navbar-collapse">
+                      <ul class="navbar-nav m-auto m-sm-auto m-md-auto ms-lg-5  mb-lg-0">
+                        <li class="navbar-item ">
+                          <a class="nav-link text-capitalize fw-300 active" style="color:rgba(223, 30, 30, 0.886);" aria-current="page" href="#">accessories</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-capitalize fw-300 shop-all" href="#">living</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-capitalize fw-300 shop-all" href="#">bedroom</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-capitalize fw-300 shop-all" href="#">lighting</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--featured-four-card-->
+    <section class="featured-four-card bg-light">
+      <div class="container py-2">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+            <div class="card m-auto mb-md-3 mb-sm-3 mb-3 card4" >
+              <img src="assect/images/product-15-280x280.jpg" class="card-img-top" alt="jpg">
+                  <div class="card-body text-center py-1">
+                      <a class="fw-400 color-grey" href="#"><p class="card-text text-capitalize shop-all">arm chair</p></a>
+                      <p class="pt-3">
+                        <i class="bi bi-star text-danger "></i>
+                        <i class="bi bi-star text-danger "></i> 
+                        <i class="bi bi-star text-danger "></i>
+                      </p>
+                  </div>
+                  <hr class="mx-5">
+                  <div class="row text-center py-1 fs-3 cardrow">
+                      <div class="col-3">
+                          <a class="text-black" href="#"><i class="bi bi-basket"></i></a>
+                      </div>
+                      <div class="col-3">
+                        <a class="text-black" href="#"><i class="bi bi-heart"></i></a>
+                      </div>
+                      <div class="col-3">
+                        <a class="text-black" href="#"><i class="bi bi-eye"></i></a>
+                      </div>
+                      <div class="col-3">
+                        <a class="text-black" href="#"><i class="bi bi-arrow-repeat"></i></a>
+                      </div>
+                  </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+            <div class="card m-auto mb-md-3 mb-sm-3 mb-3 card4">
+              <img src="assect/images/product-15-280x280.jpg" class="card-img-top" alt="jpg">
+                  <div class="card-body text-center py-1">
+                      <a class="fw-400 color-grey" href="#"><p class="card-text text-capitalize shop-all">arm chair</p></a>
+                      <p class="pt-3">
+                        <i class="bi bi-star text-danger "></i>
+                        <i class="bi bi-star text-danger "></i> 
+                        <i class="bi bi-star text-danger "></i>
+                      </p>
+                  </div>
+                  <hr class="mx-5">
+                  <div class="row text-center py-1 fs-3 cardrow">
+                      <div class="col-3">
+                          <a class="text-black" href="#"><i class="bi bi-basket"></i></a>
+                      </div>
+                      <div class="col-3">
+                        <a class="text-black" href="#"><i class="bi bi-heart"></i></a>
+                      </div>
+                      <div class="col-3">
+                        <a class="text-black" href="#"><i class="bi bi-eye"></i></a>
+                      </div>
+                      <div class="col-3">
+                        <a class="text-black" href="#"><i class="bi bi-arrow-repeat"></i></a>
+                      </div>
+                  </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+            <div class="card m-auto mb-md-3 mb-sm-3 mb-3 card4" >
+              <img src="assect/images/product-15-280x280.jpg" class="card-img-top" alt="jpg">
+                  <div class="card-body text-center py-1">
+                      <a class="fw-400 color-grey" href="#"><p class="card-text text-capitalize shop-all">arm chair</p></a>
+                      <p class="pt-3">
+                        <i class="bi bi-star text-danger "></i>
+                        <i class="bi bi-star text-danger "></i> 
+                        <i class="bi bi-star text-danger "></i>
+                      </p>
+                  </div>
+                  <hr class="mx-5">
+                  <div class="row text-center py-1 fs-3 cardrow">
+                      <div class="col-3">
+                          <a class="text-black" href="#"><i class="bi bi-basket"></i></a>
+                      </div>
+                      <div class="col-3">
+                        <a class="text-black" href="#"><i class="bi bi-heart"></i></a>
+                      </div>
+                      <div class="col-3">
+                        <a class="text-black" href="#"><i class="bi bi-eye"></i></a>
+                      </div>
+                      <div class="col-3">
+                        <a class="text-black" href="#"><i class="bi bi-arrow-repeat"></i></a>
+                      </div>
+                  </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+            <div class="card m-auto mb-md-3 mb-sm-3 mb-3 card4" >
+              <img src="assect/images/product-15-280x280.jpg" class="card-img-top" alt="jpg">
+                  <div class="card-body text-center py-1">
+                      <a class="fw-400 color-grey" href="#"><p class="card-text text-capitalize shop-all">arm chair</p></a>
+                      <p class="pt-3">
+                        <i class="bi bi-star text-danger "></i>
+                        <i class="bi bi-star text-danger "></i> 
+                        <i class="bi bi-star text-danger "></i>
+                      </p>
+                  </div>
+                  <hr class="mx-5">
+                  <div class="row text-center py-1 fs-3 cardrow">
+                      <div class="col-3">
+                          <a class="text-black" href="#"><i class="bi bi-basket"></i></a>
+                      </div>
+                      <div class="col-3">
+                        <a class="text-black" href="#"><i class="bi bi-heart"></i></a>
+                      </div>
+                      <div class="col-3">
+                        <a class="text-black" href="#"><i class="bi bi-eye"></i></a>
+                      </div>
+                      <div class="col-3">
+                        <a class="text-black" href="#"><i class="bi bi-arrow-repeat"></i></a>
+                      </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+            <div class="card m-auto mb-md-3 mb-sm-3 mb-3 card4" >
+              <img src="assect/images/product-39-280x280.jpg" class="card-img-top" alt="jpg">
+                  <div class="card-body text-center py-1">
+                      <a class="fw-400 color-grey" href="#"><p class="card-text text-capitalize shop-all">arm chair</p></a>
+                      <p class="pt-3">
+                        <i class="bi bi-star text-danger "></i>
+                        <i class="bi bi-star text-danger "></i> 
+                        <i class="bi bi-star text-danger "></i>
+                      </p>
+                  </div>
+                  <hr class="mx-5">
+                  <div class="row text-center py-1 fs-3 cardrow">
+                      <div class="col-3">
+                          <a class="text-black" href="#"><i class="bi bi-basket"></i></a>
+                      </div>
+                      <div class="col-3">
+                        <a class="text-black" href="#"><i class="bi bi-heart"></i></a>
+                      </div>
+                      <div class="col-3">
+                        <a class="text-black" href="#"><i class="bi bi-eye"></i></a>
+                      </div>
+                      <div class="col-3">
+                        <a class="text-black" href="#"><i class="bi bi-arrow-repeat"></i></a>
+                      </div>
+                  </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+            <div class="card m-auto mb-md-3 mb-sm-3 mb-3 card4">
+              <img src="assect/images/product-39-280x280.jpg" class="card-img-top" alt="jpg">
+                  <div class="card-body text-center py-1">
+                      <a class="fw-400 color-grey" href="#"><p class="card-text text-capitalize shop-all">arm chair</p></a>
+                      <p class="pt-3">
+                        <i class="bi bi-star text-danger "></i>
+                        <i class="bi bi-star text-danger "></i> 
+                        <i class="bi bi-star text-danger "></i>
+                      </p>
+                  </div>
+                  <hr class="mx-5">
+                  <div class="row text-center py-1 fs-3 cardrow">
+                      <div class="col-3">
+                          <a class="text-black" href="#"><i class="bi bi-basket"></i></a>
+                      </div>
+                      <div class="col-3">
+                        <a class="text-black" href="#"><i class="bi bi-heart"></i></a>
+                      </div>
+                      <div class="col-3">
+                        <a class="text-black" href="#"><i class="bi bi-eye"></i></a>
+                      </div>
+                      <div class="col-3">
+                        <a class="text-black" href="#"><i class="bi bi-arrow-repeat"></i></a>
+                      </div>
+                  </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+            <div class="card m-auto mb-md-3 mb-sm-3 mb-3 card4" >
+              <img src="assect/images/product-39-280x280.jpg" class="card-img-top" alt="jpg">
+                  <div class="card-body text-center py-1">
+                      <a class="fw-400 color-grey" href="#"><p class="card-text text-capitalize shop-all">arm chair</p></a>
+                      <p class="pt-3">
+                        <i class="bi bi-star text-danger "></i>
+                        <i class="bi bi-star text-danger "></i> 
+                        <i class="bi bi-star text-danger "></i>
+                      </p>
+                  </div>
+                  <hr class="mx-5">
+                  <div class="row text-center py-1 fs-3 cardrow">
+                      <div class="col-3">
+                          <a class="text-black" href="#"><i class="bi bi-basket"></i></a>
+                      </div>
+                      <div class="col-3">
+                        <a class="text-black" href="#"><i class="bi bi-heart"></i></a>
+                      </div>
+                      <div class="col-3">
+                        <a class="text-black" href="#"><i class="bi bi-eye"></i></a>
+                      </div>
+                      <div class="col-3">
+                        <a class="text-black" href="#"><i class="bi bi-arrow-repeat"></i></a>
+                      </div>
+                  </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+            <div class="card m-auto mb-md-3 mb-sm-3 mb-3 card4" >
+              <img src="assect/images/product-39-280x280.jpg" class="card-img-top" alt="jpg">
+                  <div class="card-body text-center py-1">
+                      <a class="fw-400 color-grey" href="#"><p class="card-text text-capitalize shop-all">arm chair</p></a>
+                      <p class="pt-3">
+                        <i class="bi bi-star text-danger "></i>
+                        <i class="bi bi-star text-danger "></i> 
+                        <i class="bi bi-star text-danger "></i>
+                      </p>
+                  </div>
+                  <hr class="mx-5">
+                  <div class="row text-center py-1 fs-3 cardrow">
+                      <div class="col-3">
+                          <a class="text-black" href="#"><i class="bi bi-basket"></i></a>
+                      </div>
+                      <div class="col-3">
+                        <a class="text-black" href="#"><i class="bi bi-heart"></i></a>
+                      </div>
+                      <div class="col-3">
+                        <a class="text-black" href="#"><i class="bi bi-eye"></i></a>
+                      </div>
+                      <div class="col-3">
+                        <a class="text-black" href="#"><i class="bi bi-arrow-repeat"></i></a>
+                      </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--all categoris section-->
+    <section class=" bg-light py-4">
+      <div class="text-center py-4">
+        <a class="fw-400 color-grey shop-all" href="#">shop all categoris <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+      </div>
+    </section>
+    <!--imgcard section-->
+    <section class="imgcard bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+            <a class="img4" href="#">
+              <img src="assect/images/brand-08.png" class="img-fluid" alt="png">
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+            <a class="img4" href="#">
+              <img src="assect/images/brand-08.png" class="img-fluid" alt="png">
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+            <a class="img4" href="#">
+              <img src="assect/images/brand-08.png" class="img-fluid" alt="png">
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+            <a class="img4" href="#">
+              <img src="assect/images/brand-08.png" class="img-fluid" alt="png">
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+            <a class="img4" href="#">
+              <img src="assect/images/brand-05.png" class="img-fluid" alt="png">
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+            <a class="img4" href="#">
+              <img src="assect/images/brand-05.png" class="img-fluid" alt="png">
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+            <a class="img4" href="#">
+              <img src="assect/images/brand-05.png" class="img-fluid" alt="png">
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+            <a class="img4" href="#">
+              <img src="assect/images/brand-05.png" class="img-fluid" alt="png">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--bottom input section-->
+    <section class="botminput bg-light py-2 border-bottom">
+      <div class="container py-2">
+        <div class="row pt-2">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+            <div class="">
+              <h3 class="text-capitalize fw-400 fs-4">don't<span class="text-primary"> miss</span> the change to get<span class="text-danger"> 40% off</span> </h3>
+              <p class="color-grey fw-300 fs-6">get the latest products and news update daily in fastes.</p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+            <div class="">
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Enter Your email" aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button class="btn btn-outline-secondary text-white bg-danger" type="button" id="button-addon2">Subscribe</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr>
+    <!--footer section-->
+    <section class="footer py-3 bg-white">
+      <div class="container py-3">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+              <h4 class="text-uppercase fw-500 fs-6 pb-2">Contact info</h4>
+              <div class=" text-capitalize lh-1 footer-list">
+                  <p><a class="fs-8 color-grey fw-300 fs-15px" href="#"><i class="bi bi-geo-alt me-2"></i> 70 bownman st.south windos,ct 074,nyc</a></p>
+                  <p><a class="fs-8 color-grey fw-300 fs-15px" href="#"><i class="bi bi-telephone me-2"></i> (+1) 123 444 6666/(+1) 000 111</a></p>
+                  <p><a class="fs-8 color-grey fw-300 fs-15px" href="#"><i class="bi bi-envelope me-2"></i> example@gmail.com</a></p> 
+              </div>
+              <div class="m-auto">
+                <p class="m-auto">
+                  <a class="fs-3 m-1 text-primary" href="#"><i class="bi bi-facebook"></i></a>
+                  <a class="fs-3 m-1 text-danger" href="#"><i class="bi bi-twitter"></i></a>
+                  <a class="fs-3 m-1 text-info" href="#"><i class="bi bi-instagram"></i></a>
+                  <a class="fs-3 m-1 text-warning" href="#"><i class="bi bi-youtube"></i></a>
+                </p>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+            <h4 class="text-uppercase fw-500 fs-6 pb-2">department</h4>
+            <div class=" text-capitalize lh-1 footer-list">
+                <p><a class="fs-8 color-grey fw-300 fs-15px" href="#"> Collection</a></p>
+                <p><a class="fs-8 color-grey fw-300 fs-15px" href="#"> Categories</a></p>
+                <p><a class="fs-8 color-grey fw-300 fs-15px" href="#"> What’s New Today</a></p>
+                <p><a class="fs-8 color-grey fw-300 fs-15px" href="#"> Trendings</a></p>
+                <p><a class="fs-8 color-grey fw-300 fs-15px" href="#"> Recommended</a></p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-6 pt-2 pt-sm-2 pt-md-0 pt-lg-0">
+          <h4 class="text-uppercase fw-500 fs-6 pb-2">USER AREA</h4>
+          <div class=" text-capitalize lh-1 footer-list">
+              <p><a class="fs-8 color-grey fw-300 fs-15px" href="#"> Login</a></p>
+              <p><a class="fs-8 color-grey fw-300 fs-15px" href="#"> Wishlist</a></p>
+              <p><a class="fs-8 color-grey fw-300 fs-15px" href="#"> What’s New Today</a></p>
+              <p><a class="fs-8 color-grey fw-300 fs-15px" href="#"> Checkout</a></p>
+              <p><a class="fs-8 color-grey fw-300 fs-15px" href="#"> Purchased</a></p>
+          </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 col-6 pt-2 pt-sm-2 pt-md-0 pt-lg-0">
+        <h4 class="text-uppercase fw-500 fs-6 pb-2">USER AREA</h4>
+        <div class="card mb-3 border-0 border-bottom" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-6">
+              <a class="text-center" href="">
+                <img src="assect/images/blog-08-100x100.jpg" class="img-fluid rounded-start" alt="jpg">
+              </a>
+            </div>
+            <div class="col-lg-8 col-md-6 col-sm-6 col-6 d-none d-sm-none d-md-none d-lg-block">
+              <div class="card-body text-center pt-0 footer-list">
+                <a class="card-title fs-8 color-grey fw-300 fs-15px" href="#">Sticks and Stones May Bake My Bones</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3 border-0 border-bottom d-none d-sm-none d-md-none d-lg-block" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-6">
+              <a class="text-center" href="">
+                <img src="assect/images/blog-08-100x100.jpg" class="img-fluid rounded-start" alt="jpg">
+              </a>
+            </div>
+            <div class="col-lg-8 col-md-6 col-sm-6 col-6">
+              <div class="card-body text-center pt-0 footer-list">
+                <a class="card-title fs-8 color-grey fw-300 fs-15px" href="#">Sticks and Stones May Bake My Bones</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  </div>
+  <hr>
+    </section>
+    <!--Copyrigh section-->
+    <section class="Copyrigh py-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+            <p class="color-grey fw-300 fs-15px">© Copyright 2022 Urna. By <span class="text-danger"> Thembay</span></p>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+            <div class="d-flex">
+              <p class="text-uppercase">
+                <a class="m-1 color-grey fw-300 fs-15px shop-all" href="#">FAQs</a>
+                <a class="m-1 color-grey fw-300 fs-15px shop-all" href="#">Sitemap</a>
+                <a class="m-1 color-grey fw-300 fs-15px shop-all" href="#">About</a>
+                <a class="m-1 color-grey fw-300 fs-15px shop-all" href="#">Home</a>
+              </p>
+              <div class="ms-auto">
+                <img src="assect/images/payment.png" class="img-fluid" alt="png">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+     <!----bootstarp-5 js ---->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>

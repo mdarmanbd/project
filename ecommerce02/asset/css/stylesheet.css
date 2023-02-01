@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.fw-300{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+.fw-400{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.fw-500{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+.fw-600{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.fs-16px{
+    font-size: 16px;
+}
+.fs-20px{
+    font-size: 20px;
+}
+.fs-10px{
+    font-size: 10px;
+}
+.w-700px{
+    width: 700px;
+}
+.w-600px{
+    width: 600px;
+}
+.w-200px{
+    width: 200px;
+}
+.color-grey{
+    color: rgb(97, 95, 95);
+}
+.footer-bg1{
+    background: rgb(15, 15, 26);
+}
+.footer-bg2{
+    background-color:rgb(19, 19, 30);
+}
+.nav2-border{
+    border: 1px solid rgba(230, 221, 221, 0.573);
+}
+.nav2-icon-color{
+    color: rgb(79, 75, 75);
+}
+.hover1:hover {
+    color: rgb(213, 67, 67) !important;
+}
+.dropdown .dropdown-menu{
+    display: none;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;  
+}
+.bennar{
+    background-image: url(../../asset/images/bennar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 80vh;
+    position: relative;
+}
+.benr-contain{
+    position: absolute;
+    top: 45%;
+    left: 8%;
+}
+.btn1:hover{
+    background: rgb(180, 40, 40) !important;
+    transition: 0.2s all;
+}
+.card3{
+    position: relative;
+    overflow: hidden;
+}
+.card3:before{
+    position: absolute;
+    content: '';
+    width: 80%;
+    height: 220%;
+    background: rgba(214, 197, 204, 0.63);
+    top: -50%;
+    left:-100%;
+    z-index: 1;
+    transform: rotate(25deg);
+    transform-origin: center top 0;
+    transition: 0.5s;
+}
+.card3:hover:before{
+    left:10%;
+}
+.card3  img{
+    width: 100%;
+    height: auto;
+}
+.card3-text{
+    width: 100%;
+    position: absolute;
+    top: -100%;
+    color: white;
+    padding: 40px 30px;
+    z-index: 2;
+    transition: 0.5s;
+}
+
+.card3:hover .card-text{
+   top: 10%;
+}
+.shoes-card{
+    
+    position: relative;
+}
+.cardrow{
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 0;
+    padding: 0 6px;
+    transform: rotatex(-90deg);
+}
+.shoes-card:hover .cardrow{
+transform: rotatex(0deg);
+transition: 0.7s all;
+}
+.cardrow a:hover{
+    background: white !important;
+}
+.cardrow a:hover i{
+    color:  rgb(180, 40, 40)!important;  
+}
+.saving {
+    background-image: url(../../asset/images/photo-1582588678413-dbf45f4823e9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 50vh;
+    position: relative;
+}
+.saving-contain{
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    padding: 0px;
+}
+.btn2:hover{
+    background-color: transparent !important;
+    font-weight: 500;
+    color: rgb(180, 40, 40)!important;
+    transition: 0.3s;
+}
+.sport-card img{
+    transition: 0.5s all;
+}
+.sport-card img:hover{
+    transform: scale(1.1);
+    transition: 0.5s all;
+}
